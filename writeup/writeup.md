@@ -10,11 +10,13 @@
 
 ### How it was Completed
 
-- Error for this scenario 6
+- To complete this task we changed the following text from 06_SensorNoise.txt
+- MeasuredStdDev_GPSPosXY = 2 to .75
+- MeasuredStdDev_AccelXY = .1 to .5
 
 ```
-FAIL: ABS(Quad.GPS.X-Quad.Pos.X) was less than MeasuredStdDev_GPSPosXY for 99% of the time
-FAIL: ABS(Quad.IMU.AX-0.000000) was less than MeasuredStdDev_AccelXY for 16% of the time
+PASS: ABS(Quad.GPS.X-Quad.Pos.X) was less than MeasuredStdDev_GPSPosXY for 69% of the time
+PASS: ABS(Quad.IMU.AX-0.000000) was less than MeasuredStdDev_AccelXY for 68% of the time
 ```
 
 ![scenario6](./img/scenario6.png)
